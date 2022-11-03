@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.5.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "morgan": "^1.10.0",
+    "sass": "^1.55.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "name": "groupproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon backend/server.js",
+    "client": "npm run start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notrickhere/groupProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notrickhere/groupProject/issues"
+  },
+  "homepage": "https://github.com/notrickhere/groupProject#readme",
+  "description": ""
+}
